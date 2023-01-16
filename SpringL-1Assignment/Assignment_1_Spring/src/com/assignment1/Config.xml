@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
        
        <bean id="Hello_Class" class="com.assignment1.Hello_Class">
-       <property name="message" value="Hello Spring new "/>
+       <property name="message" value="Hello Spring"/>
        </bean>
 </beans>
 

@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Main {
 
 	public static void main(String[] args) {
-
+		System.out.println("Assignment solotion 5");
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PlayerConfig.class);
 		Player player1 = context.getBean("p1", Player.class);
 		System.out.println(player1);
